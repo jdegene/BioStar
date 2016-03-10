@@ -12,10 +12,14 @@ Takes soil horizon information from the official soil map of Niedersachsen (BUK5
 them into the 16 horizon scheme required by the BioStar model
 
 Horizon changes were originally indicated by characters:
-> \  change at 0 to <2dm below ground
+> \\\\  change at 0 to <2dm below ground
+
 > /  change at 2 to <4dm below ground
+
 > // change at 4 to <8dm below ground
+
 > =  change at 8 to <13dm below ground
+
 > _  change at 13 to <20dm below ground
 
 *Boess, Gehrt et al 2004 - Erläuterungsheft zur digitalen nutzungsdifferenzierten Bodenkundlichen Übersichtskarte 1:50.000 von Niedersachsen*

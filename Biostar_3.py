@@ -191,7 +191,6 @@ for j in range(0,len(seedList),4):
     #     p5 = subprocess.Popen(Java + " -jar " + jarFile + " " + DBdir + DBfile5 + " " \
     #                      + Table5 + " " + Fruit + " 115 300 2.1 100 0.1 0.1 " + CO2_5 + " 0 0 0")
     #else:
-    #    continue
 
 
     Popen.wait(p1)              #Wartet bis p1 beendet ist

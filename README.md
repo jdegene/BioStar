@@ -1,7 +1,8 @@
 # BioStar
 BioStar scripts and related Python programs
 
-*Note: these are probably deprecated as they were written for a work-in-progress version of BioStar without an official Version number*
+*Note: these are probably deprecated as they were written for a work-in-progress version of BioStar without an official Version number in 2012.
+Comments are mostly in german*
 
 These Python (v2.7) programs are all related to the crop model BioStar, developed at the University of Goettingen
 http://www.uni-goettingen.de/de/ag-biostar/431252.html
@@ -22,7 +23,7 @@ Horizon changes were originally indicated by characters:
 
 > _  change at 13 to <20dm below ground
 
-*Boess, Gehrt et al 2004 - Erläuterungsheft zur digitalen nutzungsdifferenzierten Bodenkundlichen Übersichtskarte 1:50.000 von Niedersachsen*
+(*Boess, Gehrt et al 2004 - Erläuterungsheft zur digitalen nutzungsdifferenzierten Bodenkundlichen Übersichtskarte 1:50.000 von Niedersachsen*)
 
 
 ### BioStar_3.py

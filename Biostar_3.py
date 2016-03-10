@@ -1,5 +1,8 @@
 
-"""Automatisiert die Berechnungen von Biostar
+"""
+Python v2.7
+
+Automatisiert die Berechnungen von Biostar
 Im Vergleich zu Biostar_2.py wird hier der Saatzeitpunkt fuer die Sommergetreide angepasst und nicht standardmaessig auf
 25.4. gelegt
 Die Berechnung findet nur statt, wenn der 25.4. (Tag 115) nicht bereits in der Standardmodellierung der Starttermin war
@@ -11,7 +14,6 @@ import os
 import time
 
 from subprocess import Popen
-
 
 StartTime = time.clock() # allerster timestamp
 

@@ -13,7 +13,6 @@ import time
 from subprocess import Popen
 
 
-
 StartTime = time.clock() # allerster timestamp
 
 #CO2 Konzentrationen fuer jedes Jahr als dictionary abspeichern. Keys sind int 

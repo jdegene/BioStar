@@ -9,4 +9,4 @@ http://www.uni-goettingen.de/de/ag-biostar/431252.html
 
 ### BioStar_3.py
 Calls the Java BioStar.jar file, hands over values depending on crop and year and 
-starts 4 instances of BioStar for manual paralll execution
+starts 4 instances of BioStar for manual parallel execution

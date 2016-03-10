@@ -1,6 +1,8 @@
 # BioStar
 BioStar scripts and related Python programs
 
+*Note: these are probably deprecated as they were written for a work-in-progress version of BioStar without an official Version number*
+
 These Python (v2.7) programs are all related to the crop model BioStar, developed at the University of Goettingen
 http://www.uni-goettingen.de/de/ag-biostar/431252.html
 

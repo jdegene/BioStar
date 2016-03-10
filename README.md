@@ -4,7 +4,7 @@ BioStar scripts and related Python programs
 *Note: these are probably deprecated as they were written for a work-in-progress version of BioStar without an official Version number in 2012.
 Comments are mostly in german*
 
-These Python (v2.7) programs are all related to the crop model BioStar, developed at the University of Goettingen
+These Python (v2.6 and v2.7) programs are all related to the crop model BioStar, developed at the University of Goettingen
 http://www.uni-goettingen.de/de/ag-biostar/431252.html
 
 
@@ -47,3 +47,11 @@ Horizon changes were originally indicated by characters:
 ### BioStar_3.py
 Calls the Java BioStar.jar file, hands over values depending on crop and year and 
 starts 4 instances of BioStar for manual parallel execution
+
+
+### MakeTableMaster.py & MakeTableSlave.py
+BioStar uses Access tables as input, original climate data however comes in raster form. This script 
+uses shape files as zone data and *arcpy* -> *ZonalStatisticsAsTable* for conversion
+
+The process was devided into *Master* and *Slave*, because looping in one process lead to memory leak and extreme 
+script slowdown. 

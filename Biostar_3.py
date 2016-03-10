@@ -11,7 +11,6 @@ import os
 import time
 
 from subprocess import Popen
-#from PIL import ImageGrab #gebraucht um Screenshot zu machen
 
 
 
